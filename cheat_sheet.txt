@@ -1,0 +1,61 @@
+================== KEYMAP CHEAT SHEET ==================
+
+----------------------- LSP (n) -----------------------
+`<leader>f` : Format using LSP
+`gD`        : Jump to declaration
+`gd`        : Jump to definition
+`K`         : Show hover information
+`gi`        : Jump to implementation
+`<space>wa` : Add workspace folder
+`<space>wr` : Remove workspace folder
+`<space>wl` : List workspace folders
+`<space>D`  : Jump to type definition
+`<space>rn` : Rename symbol
+`<space>ca` : Code action
+`gr`        : Find references
+`<space>f`  : Format document
+
+----------------- File Navigation (n) -----------------
+`<c-n>`     : NvimTreeFindFile
+`<leader>-` : Open parent directory
+
+--------------- Completion (CMP) (n) ------------------
+`<C-b>`   : Scroll documentation up
+`<C-f>`   : Scroll documentation down
+`<C-o>`   : Trigger completion
+`<C-e>`   : Abort completion
+`<CR>`    : Confirm completion
+'<S-Tab>' : Select prev item
+'<Tab>'   : Select next item
+
+### autocomplete 
+
+'<M-e>' : fast wrap
+
+
+---------------- Debugger (DAP) (n) -------------------
+`<Leader>dt` : Toggle breakpoint
+`<Leader>dx` : Terminate debugger
+`<Leader>do` : Step over in debugger
+
+------------------- Telescope (n) ---------------------
+`<c-p>`          : Find files
+`<Space><Space>` : Open recent files
+`<Space>fg`      : Live grep/search
+`<Space>fh`      : Help tags (search in help documentation)
+
+---------------- Pane Navigation (n) ------------------
+`<c-k>` : Move to the pane above
+`<c-j>` : Move to the pane below
+`<c-h>` : Move to the pane on the left
+`<c-l>` : Move to the pane on the right
+
+------------- Search Highlighting (n) -----------------
+`<leader>h` : Clear search highlighting
+
+---------------------- misc  --------------------------
+'<leader>s' : Search and replace the word that you are on.
+
+===========================================================
+
+
