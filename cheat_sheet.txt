@@ -32,7 +32,6 @@
 
 '<M-e>' : fast wrap
 
-
 ---------------- Debugger (DAP) (n) -------------------
 `<Leader>dt` : Toggle breakpoint
 `<Leader>dx` : Terminate debugger
@@ -53,8 +52,25 @@
 ------------- Search Highlighting (n) -----------------
 `<leader>h` : Clear search highlighting
 
----------------------- misc  --------------------------
-'<leader>s' : Search and replace the word that you are on.
+-------------------- Edit text ------------------------
+'<leader>s'    : Search and replace the word that you are on.
+
+'n', <leader>y : yank selected line
+'n', <leader>Y : yank to end of line
+
+'n', <leader>d : delete selected text
+
+'x', <leader>p : paste and replace selections
+
+'v', J      : join selected items
+'v', K      : join selected lines backwards
+'n', J      : join lines without adding spaces
+
+'n', <C-d>  : scroll halfpage up
+'n', <C-u>  : scroll halfpage down
+
+'n', n      : center current line after search
+'n', N      : center current line before search
 
 ===========================================================
 
